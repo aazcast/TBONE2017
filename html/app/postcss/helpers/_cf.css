@@ -1,0 +1,14 @@
+* {
+	box-sizing: border-box;
+}
+.cf {
+	&:after, &:before{
+	  content: '';
+	  
+	  display: table;
+	}
+
+	&:after{
+	  clear: both
+	}
+}

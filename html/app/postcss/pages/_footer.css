@@ -1,0 +1,54 @@
+footer {
+  background: #fff;
+  padding: 0 30px 30px;
+}
+
+.containerFooter {
+  background: #1F2421;
+  text-align: center;
+  padding: 30px;
+  color: #fff;
+  img {
+    max-width: 150px;
+    padding: 10px;
+  }
+  a {
+    font-size: 35px;
+    margin-top: 20px;
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+  }
+}
+
+.socialFooter {
+  max-width: 210px;
+  margin: 10px auto;
+  li {
+    float: left;
+  }
+  a {
+    color: #fff;
+    font-size: 29px;
+    display: block;
+    margin: 4px;
+  }
+}
+.divider {
+  max-width: 700px;
+  height: 1px;
+  background: rgba(0,0,0,0.2);
+  margin: 0 auto;
+}
+.fLeft {
+  float: left;
+  p {
+    padding: 10px;
+  }
+}
+.fRight {
+  float: right;
+  p {
+    padding: 10px;
+  }
+}

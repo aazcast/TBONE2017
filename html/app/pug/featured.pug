@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+html(lang="es")
+    - var title = "TBONE OFICIAL";
+    - var description = "This is the description of my site";
+    include includes/head.pug
+    body.featuredPage#top-image
+        img(src="img/album/pamidios.jpg")
+        .featuresPage_social
+          ul.uk-clearfix
+            li
+              a(href="#") <i class="fa fa-spotify"></i>
+            li
+              a(href="#") <i class="fa fa-apple"></i>
+            li
+              a(href="#") <i class="fa fa-amazon"></i>
+        .goSite
+          a(href="#") Go to Site 
+          a(href="#") Ir al Sitio
+        //-End section container
+        include includes/foot.pug

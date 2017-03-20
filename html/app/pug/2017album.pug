@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+html(lang="es")
+    - var title = "TBONE OFICIAL";
+    - var description = "This is the description of my site";
+    include includes/head.pug
+    body.otherPage.albumPage
+        include sections/header.pug
+        div.headerOtherPage
+          h1 Pa' mi Dios y Pa' mi Gente | 2017
+          img(src="img/album/pamidios.jpg")
+        section.container
+          p This is a Small Desc about this album, this album is from 2017 is the new TBONE Album, is unique and special.
+          h2 Songs
+          ul.songs
+            li 1- Song 1 about this
+            li 2- Volare (3:00 min)
+            li 3- Song 3
+            li 4- Song 4
+          h2 Listen
+          ul.listen.uk-clearfix
+            li
+              a(href="#") <i class="fa fa-spotify"></i>
+            li
+              a(href="#") <i class="fa fa-apple"></i>
+            li
+              a(href="#") <i class="fa fa-amazon"></i>
+        //-End section container
+        section.moreComponent.uk-grid
+          .uk-width-small-1-1.uk-width-medium-1-2
+            a(href="#")
+              .moreComponent-image.moreAlb
+                h2 About
+                .moreComponent_bg
+          .uk-width-small-1-1.uk-width-medium-1-2
+            a(href="#")
+              .moreComponent-image.moreAlb
+                h2 Videos
+                .moreComponent_bg
+        include sections/footer.pug
+        include includes/foot.pug

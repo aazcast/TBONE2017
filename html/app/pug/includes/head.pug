@@ -1,0 +1,17 @@
+//- includes/head.pug
+head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+    title TBONE | #{title}
+    meta(name="description", content="" + description)
+    meta(name='apple-mobile-web-app-capable', content='yes')
+    meta(name='apple-mobile-web-app-status-bar-style', content='black')
+    meta(name='theme-color', content='#1F2421')
+    meta(content='#1F2421', name='msapplication-TileColor')
+    link(href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css", rel="stylesheet")
+    // build:css css/vendor.min.css
+    // endbuild
+    link(rel="stylesheet", href="css/vendor/uikit.min.css")
+    // build:css css/main.min.css
+    link(rel="stylesheet", href="/css/main.css")
+    // endbuild

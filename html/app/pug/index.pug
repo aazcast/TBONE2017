@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+html(lang="es")
+    - var title = "TBONE OFICIAL";
+    - var description = "This is the description of my site";
+    include includes/head.pug
+    body
+        include sections/header.pug
+        section.homeLastPost.uk-padding-remove.uk-position-relative
+            .uk-cover-background.uk-position-relative.bgHome
+                img(src="img/bg.jpg").uk-invisible.maxH-Home
+                .uk-position-cover.uk-flex.uk-flex-center.uk-flex-middle.bgModal
+                    .detailsHome
+                        h1 This is the last blog
+                        p.desc This is a small description about the last notice or post in the blog, that i had. Just check this.
+                        a(href="blog.html") Read More
+        //- End Section HomeLastPost | main
+        section.homeItemsTbone
+            div(data-uk-grid)
+                .uk-width-small-2-2.uk-width-medium-1-3.oh
+                    .homeItemsTbone_unique.bio
+                        a(href="/es/galeria.html")
+                            p.uk-flex Biography
+                .uk-width-small-2-2.uk-width-medium-1-3.oh
+                    .homeItemsTbone_unique.gallery
+                        a(href="/news/")
+                            p.uk-flex Gallery
+                .uk-width-small-2-2.uk-width-medium-1-3.oh
+                    .homeItemsTbone_unique.albums
+                        a(href="/es/galeria.html")
+                            p.uk-flex Albums
+                .uk-width-small-2-2.uk-width-medium-1-3.oh
+                    .homeItemsTbone_unique.videos
+                        a(href="/es/tour.html")
+                            p.uk-flex Videos
+                .uk-width-small-2-2.uk-width-medium-1-3.oh
+                    .homeItemsTbone_unique.tour
+                        a(href="/es/tour.html")
+                            p.uk-flex Tour
+                .uk-width-small-2-2.uk-width-medium-1-2.oh
+                    .homeItemsTbone_unique.videos
+                        a(href="/es/tour.html")
+                            p.uk-flex Videos
+                .uk-width-small-2-2.uk-width-medium-1-2.oh
+                    .homeItemsTbone_unique.news
+                        a(href="/es/tour.html")
+                            p.uk-flex News
+        //-End section Home
+        include sections/footer.pug
+        include includes/foot.pug
+
