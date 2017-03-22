@@ -9,7 +9,7 @@
 ?>  
     </main> <!-- ./main -->
     <footer class="g-footer">
-      <div class="containerFooter"><img src="img/logo.png"/>
+      <div class="containerFooter"><img src=<?php echo get_template_directory_uri() .'/img/logo.png' ?>>
         <nav class="socialFooter uk-clearfix">
           <ul>
             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
