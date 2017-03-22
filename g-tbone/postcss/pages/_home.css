@@ -1,0 +1,203 @@
+.maxH-Home {
+  max-height: 500px;
+}
+.bgHome {
+  background: url('../img/bg.jpg') no-repeat;
+  background-size: cover;
+  background-attachment: fixed; 
+  @media screen and (max-width: 768px) {
+    background-size: contain;
+  }
+}
+
+.bgModal {
+  background: rgba(0,0,0,0.3);
+  h1 {
+    font-size: 40px;
+    color: #fff;
+  }
+  p {
+    display: block;
+    color: #fff;
+  }
+  a {
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+  }
+}
+.detailsHome {
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.oh {
+  overflow: hidden;
+}
+.homeItemsTbone_unique {
+  background: url(../img/home/tbone.jpg) no-repeat;
+  background-size: cover;
+  height: 250px;
+  transition: all .3s;
+  cursor: pointer;
+  text-align: center;
+  filter: grayscale(100%);
+  overflow: hidden;
+  transition: all .3s;
+  &:hover {
+    filter: grayscale(0%);
+    padding: 10px;
+    overflow: hidden;
+    transform: scale(1.1);
+  }
+  p {
+    padding: 40px;
+    height: 100%;
+    opacity: 1;
+    width: 100%;
+    background: rgba(0,0,0,.3);
+    color: #fff;
+    box-sizing: border-box;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    text-align: center;
+  }
+}
+
+.bio {
+  height: 500px;
+}
+.albums {
+  height: 500px; 
+}
+
+.albumpamidios {
+  height: 400px;
+  background: url('../img/album/pamidios.jpg');
+  -webkit-background-size: contain;
+       -o-background-size: contain;
+          background-size: contain;
+}
+
+.albumHistory {
+  height: 400px;
+  background: url('../img/album/history.jpg');
+  -webkit-background-size: contain;
+       -o-background-size: contain;
+          background-size: contain;
+}
+.albumBoneAppetit {
+  height: 400px;
+  background: url('../img/album/boneappetit.jpg');  
+  -webkit-background-size: contain;
+       -o-background-size: contain;
+          background-size: contain;
+}
+.albumBoneaFide {
+  height: 400px;
+  background: url('../img/album/boneafide.jpg');  
+  -webkit-background-size: contain;
+       -o-background-size: contain;
+          background-size: contain;
+}
+.videos,.news {
+  height: 350px;
+}
+.moreComponent {
+  overflow: hidden;
+  div {
+    padding: 0;
+  }
+}
+.moreComponent-image {
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+  text-align: center;
+  background: url(../img/home/tbone.jpg) no-repeat;
+  -webkit-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+  background-position: center;
+  transition: all .3s;
+  &:hover {
+    transform: scale(1.1) rotate(2deg);
+  }
+  h2 {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 80px;
+    top: 40%;
+    display: block;
+  }
+}
+.moreComponent_bg {
+  background: rgba(0,0,0,.8);
+  position: absolute;
+  width: 100%;
+  top: 0;
+  height: 100%;
+  transition: all .3s;
+  &:hover {
+    background: rgba(0,0,0,.6);
+  }
+}
+.albumPage {
+  .songs {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 300;
+    li {
+      margin: 4px 0;
+    }
+  }
+  p {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+    font-size: 39px;
+    text-transform: uppercase;
+  }
+  .headerOtherPage{
+    img {
+      max-width: 400px;
+      margin: 0 auto;
+      display: block;
+      -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+      -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+      box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+      transition: all .3s;
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+}
+
+.listen {
+  max-width: 159px;
+  margin: 0 auto;
+  a {
+    color: #031927;
+    font-size: 48px;
+    transition: all .3s;
+    display: block;
+    &:hover {
+      color: #00DFEE;
+    }
+  }
+  li {
+    margin: 5px;
+    display: block;
+    float: left;
+  }
+}

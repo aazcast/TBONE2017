@@ -1,0 +1,77 @@
+body {
+  background: #FFF;
+  font-family: "proxima-nova",sans-serif;
+  font-weight: 400;
+  color: #031927;
+}
+
+em, .desc, .titleDesc {
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, .title, strong, b, a {
+  font-family: "refrigerator-deluxe",sans-serif;
+  font-weight: 700;
+}
+
+.strong, b, a {
+  font-weight: 400;
+}
+
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#top-image {
+  background:url('../img/bgfeatured.jpg') -45px -250px;
+  position:fixed ;
+  top:0;
+  width:100%;
+  z-index:0;
+  height:100%;
+  background-size: calc(100% + 50px);
+}
+
+.featuredPage {
+  img {
+    padding-top: ;
+    max-width: 380px;
+    margin: 90px auto 0;
+    display: block;
+    -webkit-box-shadow: 0px 2px 11px 5px rgba(0,0,0,0.36);
+    -moz-box-shadow: 0px 2px 11px 5px rgba(0,0,0,0.36);
+    box-shadow: 0px 2px 11px 5px rgba(0,0,0,0.36);
+  }
+}
+
+.goSite {
+  text-align: center;
+  a {
+    font-size: 39px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin: 10px 8px;
+  }
+}
+
+.featuresPage_social {
+  max-width: 230px;
+  margin: 15px auto 55px;
+  li {
+    float: left;
+    margin: 15px;
+  }
+  a {
+    font-size: 50px;
+    color: #fff;
+    transition: all .3s;
+    &:hover {
+      font-size: 55px;
+      text-shadow: rgb(3, 3, 3) 1px 3px 9px;
+    }
+  }
+}
