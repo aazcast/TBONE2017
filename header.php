@@ -25,7 +25,7 @@
   </head>
   <body <?php body_class(); ?>>
     <header class="uk-position-top uk-clearfix" data-uk-observe="data-uk-observe">
-      <div class="logo"><img src=<?php get_template_directory() .?>"/img/logo.png"/></div>
+      <div class="logo"><img src=<?php echo get_template_directory_uri() .'/img/logo.png' ?>></div>
       <div class="navigation">
         <nav class="social">
         <?php
@@ -40,6 +40,6 @@
     <section class="g-logo">
       <?php
         bloginfo('name');
-        }?>
+        ?>
     </section>
     <main>

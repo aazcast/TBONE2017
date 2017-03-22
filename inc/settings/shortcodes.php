@@ -28,6 +28,6 @@ function addscFontAwesome($atts) {
   
 add_shortcode('icon', 'addscFontAwesome');
 add_filter('widget_text', 'do_shortcode');
-require_once dirname( __FILE__ ) . '../shortcode/init.php';
+require_once get_template_directory() . '/inc/shortcode/init.php';
 
 ?>

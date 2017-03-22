@@ -22,7 +22,7 @@ add_filter( 'ot_show_pages', '__return_true' );
 add_filter( 'ot_show_new_layout', '__return_false' );
 add_filter( 'ot_theme_mode', '__return_true' );
 include_once( get_template_directory() . '/option-tree/ot-loader.php' );
-/*include_once( get_template_directory() . '/inc/theme-options.php' );*/
+include_once( get_template_directory() . '/inc/settings/theme-options.php' );
 
 /*-----------------------------------------------------------------------------------*/
 /*  Theme setup
