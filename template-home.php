@@ -33,7 +33,7 @@
           <div class="homeItemsTbone_unique albums"><a href="/es/galeria.html">
               <p class="uk-flex">Albums</p></a></div>
         </div>
-        <div class="uk-width-small-2-2 uk-width-medium-1-3 oh">
+        <div class="uk-width-small-2-2 uk-width-medium-1-3 oh">s
           <div class="homeItemsTbone_unique videos"><a href="/es/tour.html">
               <p class="uk-flex">Videos</p></a></div>
         </div>
@@ -46,7 +46,7 @@
               <p class="uk-flex">Videos</p></a></div>
         </div>
         <div class="uk-width-small-2-2 uk-width-medium-1-2 oh">
-          <div class="homeItemsTbone_unique news"><a href="/es/tour.html">
+          <div style="<?php echo "background: url(". get_field( "backgrounds_news" ) .") no-repeat !important;"?>" class="homeItemsTbone_unique news"><a href="/es/tour.html">
               <p class="uk-flex">News</p></a></div>
         </div>
       </div>

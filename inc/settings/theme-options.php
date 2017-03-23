@@ -535,6 +535,18 @@ if (!function_exists('grv_theme_options')) {
         /*-----------------------------------------------------------
           Custom Code
         -----------------------------------------------------------*/
+        array(
+          'label'       => __('Imagen News','g-heirsbridge'),
+          'id'          => 'grv_newsbg',
+          'type'        => 'background',
+          'desc'        => __('Selecciona la imagen de news', 'g-heirsbridge'),
+          'std'         => '',
+          'rows'        => '',
+          'post_type'   => '',
+          'taxonomy'    => '',
+          'class'       => '',
+          'section'     => 'otros_settings'
+        ),
 
         array(
           'label'       => __('Custom CSS','g-heirsbridge'),
@@ -548,7 +560,6 @@ if (!function_exists('grv_theme_options')) {
           'class'       => '',
           'section'     => 'code_settings'
         ),
-
       ) //end settings
     );
     /* settings are not the same update the DB */
