@@ -231,13 +231,18 @@ ul {
     padding: 0
 }
 #top-image {
-    background: url(../img/bgfeatured.jpg) -2.8125em -15.625em;
+    /*background: url(../img/bgfeatured.jpg) -2.8125em -15.625em;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 0;
     height: 100%;
-    background-size: calc(100% + 3.125em)
+    background-size: calc(100% + 3.125em)*/
+    width: 100%;
+    position: fixed;
+    background-size: cover;
+    
+    height:100%;
 }
 .featuredPage img {
     padding-top: ;
@@ -338,7 +343,8 @@ nav.menu a i {
 .headerOtherPage h1 {
     font-size: calc(3.0625em + 21 * ((100vw - 26.25em) / 860));
     text-align: center;
-    text-transform: uppercase
+    text-transform: uppercase;
+    margin-top:80px;
 }
 .container {
     max-width: 62.5em;
@@ -405,7 +411,7 @@ footer {
     max-height: 31.25em
 }
 .bgHome {
-    background: url(../img/bg.jpg) no-repeat;
+    /*background: url(../img/bg.jpg) no-repeat;*/
     background-size: cover;
     background-attachment: fixed;
     height:50vw;
@@ -437,8 +443,9 @@ footer {
     overflow: hidden
 }
 .homeItemsTbone_unique {
-    background: url(../img/home/tbone.jpg) no-repeat;
-    background-size: cover;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+background-position: center center !important;
     height: 15.625em;
     -webkit-transition: all .3s;
     cursor: pointer;
@@ -447,7 +454,7 @@ footer {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     overflow: hidden;
-    transition: all .3s
+    transition: all .3s;
 }
 .homeItemsTbone_unique:hover {
     filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" /></filter></svg>#filter');
@@ -611,6 +618,20 @@ footer {
 }
 @media screen and (max-width: 420px) {
     .headerOtherPage h1 {
-        font-size: 3.0625em
+        font-size: 3.0625em;
     }
+}
+.hPage header{
+    background: #1f2421;
+    position: fixed!important;
+    width: 100%;
+    top: 0;
+    z-index: 2
+}
+.hPage .logo{
+    max-width: 4.3125em;
+    padding: .3125em;
+}
+.articlePost{
+    margin-top: 75px;
 }

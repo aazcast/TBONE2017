@@ -3,13 +3,13 @@
   if( is_single() ) { $grv_post_class[] = 'post-single'; }
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class($grv_post_class); ?> itemscope itemtype="https://schema.org/BlogPosting">
-  <header class="post-head">
+  <div class="post-head2">
     <?php if ( is_single()) : ?>
       <?php the_title('<h1 class="post-title">', '</h1>' ); ?>
     <?php else: ?>
       <?php the_title( sprintf( '<h1 class="post-title"><a href="%s" itemprop="url" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h1>' ); ?>
     <?php endif; ?>
-  </header><!-- /.post-head -->
+  </div><!-- /.post-head -->
   <?php
     do_action( 'grv_post_meta' );
     do_action( 'grv_post_body' );

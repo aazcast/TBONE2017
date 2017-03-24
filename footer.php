@@ -8,8 +8,8 @@
  */
 ?>  
     </main> <!-- ./main -->
-    <footer class="g-footer">
-      <div class="containerFooter"><img src=<?php echo get_template_directory_uri() .'/img/logo.png' ?>>
+    <footer>
+      <div class="containerFooter"><img src="<?php echo get_template_directory_uri() .'/img/logo.png' ?>"/>
         <nav class="socialFooter uk-clearfix">
           <ul>
             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -29,7 +29,7 @@
           <p>Site by Gravity</p>
         </div>
       </div>
-    </footer> <!-- ./footer -->
+    </footer>
     <?php wp_footer(); ?>
   </body>
 </html>
