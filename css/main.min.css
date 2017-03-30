@@ -414,7 +414,7 @@ footer {
     /*background: url(../img/bg.jpg) no-repeat;*/
     background-size: cover;
     background-attachment: fixed;
-    height:50vw;
+    height:37vw;
 }
 .bgModal {
     background: #000;
@@ -440,7 +440,8 @@ footer {
     text-align: center
 }
 .oh {
-    overflow: hidden
+    overflow: hidden;
+    border: 1px solid #000;
 }
 .homeItemsTbone_unique {
     background-size: cover !important;
@@ -608,7 +609,8 @@ background-position: center center !important;
         max-width: 4.6875em
     }
     .bgHome {
-        background-size: contain
+        background-size: cover;
+        height: 500px;
     }
 }
 @media screen and (min-width: 1280px) {
@@ -634,4 +636,12 @@ background-position: center center !important;
 }
 .articlePost{
     margin-top: 75px;
+}
+
+.homeLastPost .detailsHome .moreContent {
+    height: 265px;
+    overflow: hidden;
+}
+.homeItemsTbone {
+    background: #000;
 }
