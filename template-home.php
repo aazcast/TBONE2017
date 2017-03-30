@@ -23,7 +23,8 @@
         <div class="uk-position-cover uk-flex uk-flex-center uk-flex-middle bgModal">
           <div class="detailsHome">
             <h1><?php echo $recent["post_title"] ?></h1>
-            <p class="desc"><?php echo $recent["post_content"]?></p><a href= "<?php echo get_permalink($recent["ID"])?>">Read More</a>
+            <p class="desc"><?php echo $recent["post_content"]?></p>
+            <a href= "<?php echo get_permalink($recent["ID"])?>">Read More</a>
           </div>
         </div>
       </div>

@@ -75,3 +75,11 @@ ul {
     }
   }
 }
+
+.featuredVideo {
+  max-width: 280px;
+  margin: 94px auto 30px;
+  -webkit-box-shadow: 0px 2px 11px 5px rgba(0,0,0,0.36);
+  -moz-box-shadow: 0px 2px 11px 5px rgba(0,0,0,0.36);
+  box-shadow: 0px 2px 11px 5px rgba(0,0,0,0.36);
+}
