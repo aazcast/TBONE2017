@@ -5,7 +5,7 @@
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class($grv_post_class); ?> itemscope itemtype="https://schema.org/BlogPosting">
     <?php if ( is_single()) : ?>
-        <div class="headerOtherPage singlePostBone cf" style="background: #000 url('<?php echo $image[0]; ?>') no-repeat;">
+        <div class="headerOtherPage singlePostBone cf" style="background-image: url('<?php echo $image[0]; ?>');">
       <?php the_title('<h1 class="post-title">', '</h1>' ); ?>
         </div>
     <?php else: ?>

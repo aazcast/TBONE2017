@@ -650,6 +650,7 @@ background-position: center center !important;
     -webkit-background-size: cover;
          -o-background-size: cover;
             background-size: cover;
+    padding: 70px 0;
 }
 .singlePostBone h1 {
     line-height: 1;
@@ -659,4 +660,29 @@ background-position: center center !important;
     background: rgba(0,0,0,0.7);
     padding: 15px;
     text-align: center;
+}
+
+.tboneposts {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.tboneposts article {
+    margin: 60px 0;
+    border-bottom: 1px solid #000;
+}
+
+.tboneposts .post-image img {
+    border: 4px solid #000
+}
+
+.tboneposts .post-body p {
+    font-size: 16px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+.tboneposts .post-actions a {
+    font-size: 32px;
 }

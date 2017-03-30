@@ -2,6 +2,7 @@
   $grv_post_class = array( 'post'  );
   if( is_single() ) { $grv_post_class[] = 'post-single'; }
 ?>
+  
   <article id="post-<?php the_ID(); ?>" <?php post_class($grv_post_class); ?> itemscope itemtype="https://schema.org/BlogPosting">
     <div class="post-head2">
       <?php if ( is_single()) : ?>

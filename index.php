@@ -9,20 +9,18 @@
 ?>
 <?php get_header(); ?>
 
-
-<?php if ( have_posts() ) : ?>
-  <?php while ( have_posts() ) : the_post(); ?>
-    <?php get_template_part( 'post-format/content'); ?>
-  <?php endwhile; ?>
-  
-  <?php else : ?>
-    <?php get_template_part( 'post-format/content', 'none' ); ?>
-<?php endif; ?>
-<?php grv_pagination() ?>
-
-
-<?php dynamic_sidebar( 'sidebar-widgets' ); ?>
-
-
+<div class="uk-container uk-container-center">
+  <div class="tboneposts">
+  <?php if ( have_posts() ) : ?>
+    <?php while ( have_posts() ) : the_post(); ?>
+      <?php get_template_part( 'post-format/content'); ?>
+    <?php endwhile; ?>
+    
+    <?php else : ?>
+      <?php get_template_part( 'post-format/content', 'none' ); ?>
+  <?php endif; ?>
+  <?php grv_pagination() ?>
+</div>
+</div>
 
 <?php get_footer(); ?>
