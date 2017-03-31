@@ -642,6 +642,7 @@ footer {
 .homeLastPost .detailsHome .moreContent {
     height: 265px;
     overflow: hidden;
+    margin-bottom: 20px;
 }
 .homeItemsTbone {
     background: #000;
@@ -691,4 +692,21 @@ footer {
 
 .featuredVideo {
     margin: 30px auto;
+}
+
+em {
+    color: #f4f4f4;
+}
+strong {
+    font-size: 22px;
+}
+
+.headerOtherPage h1 a {
+    line-height: 1;
+    font-size: 43px;
+    color: #000;
+}
+
+.post-actions {
+    margin-bottom: 23px;
 }
