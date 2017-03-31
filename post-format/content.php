@@ -8,7 +8,10 @@
       <?php if ( is_single()) : ?>
         <?php the_title('<h1 class="post-title">', '</h1>' ); ?>
       <?php else: ?>
-        <?php the_title( sprintf( '<h1 class="post-title"><a href="%s" itemprop="url" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h1>' ); ?>
+        
+        <div class="headerOtherPage">
+          <?php the_title( sprintf( '<h1 class="post-title"><a href="%s" itemprop="url" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h1>' ); ?>
+        </div>
       <?php endif; ?>
     </div><!-- /.post-head -->
 
