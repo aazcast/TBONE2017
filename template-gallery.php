@@ -22,7 +22,7 @@
                 <?php foreach( $images as $image ): ?>
                     <li>
                         <div class="uk-width-small-2-2 uk-width-medium-1-4 oh">
-                          <img src="<?php echo $image['sizes']['thumbnail']; ?>" alt="<?php echo $image['alt']; ?>" />
+                          <img src="<?php echo $image['sizes']['large']; ?>" alt="<?php echo $image['alt']; ?>" />
                         </div>
                     </li>
                 <?php endforeach; ?>
