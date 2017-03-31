@@ -710,3 +710,32 @@ strong {
 .post-actions {
     margin-bottom: 23px;
 }
+
+/* tour details */
+
+.tourComming {
+    font-size: 19px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.tourComming th {
+    border: 1px solid black;
+    text-transform: uppercase;
+}
+
+.tourComming th:first-child {
+    width: 109px;
+}
+.tourComming th:last-child {
+    width: 105px;
+}
+.tourComming th:nth-child(3) {
+    width: 176px;
+}
+.tourComming th:nth-child(2) {
+    width: 221px;
+}
+.tourComming tbody {
+    text-align: center;
+}
