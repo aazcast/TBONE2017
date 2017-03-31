@@ -24,8 +24,12 @@
     <?php wp_head(); ?>
   </head>
   <body class="hPage" <?php body_class(); ?>>
-       <header class="uk-position-top uk-clearfix" data-uk-observe="data-uk-observe">
-      <div class="logo"><img src="<?php echo get_template_directory_uri() .'/img/logo.png' ?>"/></div>
+    <header class="uk-position-top uk-clearfix" data-uk-observe="data-uk-observe">
+      <div class="logo">
+        <a href="/">
+          <img src="<?php echo get_template_directory_uri() .'/img/logo.png' ?>"/>
+        </a> 
+      </div>
       <div class="navigation">
         <nav class="social">
           <ul>

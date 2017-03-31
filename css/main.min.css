@@ -434,6 +434,7 @@ footer {
     font-size: 1.5em
 }
 .detailsHome {
+    width: 90%;
     max-width: 40.625em;
     margin: 0 auto;
     padding: 1.25em;
@@ -446,7 +447,7 @@ footer {
 .homeItemsTbone_unique {
     background-size: cover !important;
     background-repeat: no-repeat !important;
-background-position: center center !important;
+    background-position: center center !important;
     height: 15.625em;
     -webkit-transition: all .3s;
     cursor: pointer;
@@ -685,4 +686,5 @@ background-position: center center !important;
 
 .tboneposts .post-actions a {
     font-size: 32px;
+    margin-bottom: 32px;
 }
