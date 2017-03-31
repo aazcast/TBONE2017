@@ -18,15 +18,11 @@
         <?php 
         $images = get_field('gallery');
         if( $images ): ?>
-            <ul>
-                <?php foreach( $images as $image ): ?>
-                    <li>
-                        <div class="uk-width-small-2-2 uk-width-medium-1-4 oh">
-                          <img src="<?php echo $image['sizes']['large']; ?>" alt="<?php echo $image['alt']; ?>" />
-                        </div>
-                    </li>
-                <?php endforeach; ?>
-            </ul>
+          <?php foreach( $images as $image ): ?>
+            <div class="uk-width-small-2-2 uk-width-medium-1-4 oh">
+              <img src="<?php echo $image['sizes']['large']; ?>" alt="<?php echo $image['alt']; ?>" />
+            </div>
+          <?php endforeach; ?>
         <?php endif; ?>
       </div>
     </div>
