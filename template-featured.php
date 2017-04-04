@@ -28,7 +28,7 @@
 <?php // echo get_template_directory_uri() .'/img/album/pamidios.jpg'?>
 "/> -->
   <div class="featuredVideo" style="max-width: 300px;">
-  <script src="https://fast.wistia.com/embed/medias/ssaeqyovox.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:100.0% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_ssaeqyovox seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  <script src="https://fast.wistia.com/embed/medias/np9n9evv0f.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:100.0% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_np9n9evv0f seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
   </div>
     <div class="featuresPage_social">
       <ul class="uk-clearfix">
