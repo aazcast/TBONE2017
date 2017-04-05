@@ -765,6 +765,7 @@ strong {
   top: 0;
   left: 0;
   z-index: 9;
+  display: none;
   background: rgba(0,0,0,0.8);
 }
 .menuItemsContainer {
@@ -774,10 +775,15 @@ strong {
 }
 
 .menuItemsContainer a {
-  font-size: 20px;
+  font-size: 51px;
   text-transform: uppercase;
   color: #fff;
-  padding: 10px 0;
+  padding: 27px 0;
+  display: block;
+}
+.closeMenu {
+    font-size: 30px;
+    padding-top: 34px;
 }
 
 .featuredVideo .wistia_responsive_padding {

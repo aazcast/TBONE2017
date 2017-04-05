@@ -19,4 +19,13 @@ var width = movementStrength / jQuery(window).width();
     var newvalueY = height * pageY * -1 - 250;
     jQuery('#top-image').css("background-position", newvalueX+"px     "+newvalueY+"px");
   });
+  //On Click Menu
+  jQuery('._menuMovil').on('click', function(){
+    jQuery('.menuItems').fadeIn();
+  });
+  jQuery('.closeMenu').on('click', function(){
+    jQuery('.menuItems').fadeOut();
+  })
 });
+
+

@@ -68,6 +68,9 @@
           <li>
             <a href="#">Videos</a>
           </li>
+          <li>
+            <a href="javascript:;" class="closeMenu">Close</a>
+          </li>
         </ul>
       </nav>
     </div>
