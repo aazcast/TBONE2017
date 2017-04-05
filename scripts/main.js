@@ -21,6 +21,7 @@ var width = movementStrength / jQuery(window).width();
   });
   //On Click Menu
   jQuery('._menuMovil').on('click', function(){
+    console.log('inside')
     jQuery('.menuItems').fadeIn();
   });
   jQuery('.closeMenu').on('click', function(){
