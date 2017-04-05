@@ -33,15 +33,42 @@
       <div class="navigation">
         <nav class="social">
           <ul>
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-            <li><a href="#"><i class="fa fa-spotify"></i></a></li>
+            <li><a href="https://www.facebook.com/tboneoficial/"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.twitter.com/BoneySoprano"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com/tboneoficial/"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.youtube.com/tbonemusic"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="https://open.spotify.com/artist/6h2GxbU7emrTikSWxbMyxd"><i class="fa fa-spotify"></i></a></li>
           </ul>
         </nav>
         <!--end -/navsocial-->
         <nav class="menu"><a class="_menuMovil" href="javascript:;">Menu<i class="fa fa-bars"></i></a></nav>
       </div>
     </header>
+    <div class="menuItems">
+      <nav class="menuItemsContainer">
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Biography</a>
+          </li>
+          <li>
+            <a href="#">Tour</a>
+          </li>
+          <li>
+            <a href="#">News</a>
+          </li>
+          <li>
+            <a href="#">Albums</a>
+          </li>
+          <li>
+            <a href="#">Gallery</a>
+          </li>
+          <li>
+            <a href="#">Videos</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <main>

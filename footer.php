@@ -12,14 +12,16 @@
       <div class="containerFooter"><img src="<?php echo get_template_directory_uri() .'/img/logo.png' ?>"/>
         <nav class="socialFooter uk-clearfix">
           <ul>
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-            <li><a href="#"><i class="fa fa-spotify"></i></a></li>
+            <li><a href="https://www.facebook.com/tboneoficial/"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.twitter.com/BoneySoprano"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com/tboneoficial/"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.youtube.com/tbonemusic"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="https://open.spotify.com/artist/6h2GxbU7emrTikSWxbMyxd"><i class="fa fa-spotify"></i></a></li>
           </ul>
         </nav>
-        <div class="divider"></div><a href="contact.html">Contact</a>
+        <div class="divider"></div>
+        <a href="mailto:tboneoficial@gmail.com">Contact</a>
+        <p>tboneoficial@gmail.com</p>
       </div>
       <div class="copyFooter uk-clearfix">
         <div class="fLeft">

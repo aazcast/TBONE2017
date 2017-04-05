@@ -77,3 +77,27 @@ nav.menu {
   padding: 20px;
   text-align: justify;
 }
+._menuMovil:hover {
+  background: #f4f4f4;
+}
+.menuItems {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  overflow-y: scroll;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+}
+.menuItemsContainer {
+  max-width: 700px;
+  text-align: center;
+  margin: 40px auto;
+}
+
+.menuItemsContainer a {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 10px 0;
+}
