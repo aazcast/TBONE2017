@@ -31,6 +31,22 @@
         </a> 
       </div>
       <div class="navigation">
+        <div class="g-credits-lang">
+          <?php 
+            $languages = icl_get_languages();
+            if(0 < count($languages)){
+              foreach($languages as $l){
+                if(!$l['active']) { 
+                  $langs[] = '<a href="'.$l['url'].'">'.$l['translated_name'].'</a>'; 
+                }
+                if ($l['active']) {
+                  $langs[] = '<a class="g-activeLang" href="'.$l['url'].'">'.$l['translated_name'].'</a>'; 
+                }
+              }
+              echo join(' | ', $langs);
+            }
+          ?>
+        </div>
         <nav class="social">
           <ul>
             <li><a href="https://www.facebook.com/tboneoficial/"><i class="fa fa-facebook"></i></a></li>
