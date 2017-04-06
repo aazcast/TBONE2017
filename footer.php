@@ -28,7 +28,7 @@
           <p>2017 &copy T-BONE</p>
         </div>
         <div class="fRight">
-          <p>Site by Gravity</p>
+          <p>Site by <a href="http://gravity.cr">Gravity</a></p>
         </div>
       </div>
     </footer>

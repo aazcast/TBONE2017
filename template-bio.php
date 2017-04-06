@@ -18,13 +18,13 @@
     </section>
     <section class="moreComponent uk-grid">
       <div class="uk-width-small-1-1 uk-width-medium-1-2"><a href="#">
-          <div class="moreComponent-image moreAlb">
+          <div class="moreComponent-image moreAlb" style="background: url(http://dev.gravity.cr/tboneWP/wp-content/uploads/2017/03/album.jpg)">
             <h2>Albums</h2>
             <div class="moreComponent_bg"></div>
           </div></a></div>
       <div class="uk-width-small-1-1 uk-width-medium-1-2"><a href="#">
-          <div class="moreComponent-image moreAlb">
-            <h2>Galeria</h2>
+          <div class="moreComponent-image moreAlb"  style="background: url(http://dev.gravity.cr/tboneWP/wp-content/uploads/2017/03/gallery.jpg)">
+            <h2>Gallery</h2>
             <div class="moreComponent_bg"></div>
           </div></a></div>
     </section>
