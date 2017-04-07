@@ -14,7 +14,7 @@
 if ( ! function_exists( 'grv_css_include' ) ) {
   function grv_css_include () { 
     wp_enqueue_style( 'grv-vendor', get_template_directory_uri() . '/css/vendor/uikit.min.css', array(), 'v1.0', 'all' );
-    wp_enqueue_style( 'grv-style', get_template_directory_uri() . '/css/main.min.css', array('grv-vendor'), 'v2.0.1', 'all' );
+    wp_enqueue_style( 'grv-style', get_template_directory_uri() . '/css/main.min.css', array('grv-vendor'), 'v2.0.2', 'all' );
     wp_enqueue_style( 'grv-fonts', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', array('grv-style'), 'v1.0', 'all' );
   } //Enf Function grv-css
   add_action( 'wp_enqueue_scripts', 'grv_css_include' );
