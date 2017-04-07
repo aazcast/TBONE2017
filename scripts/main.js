@@ -24,7 +24,7 @@ var width = movementStrength / jQuery(window).width();
     console.log('inside')
     jQuery('.menuItems').fadeIn();
   });
-  jQuery('.closeMenu').on('click', function(){
+  jQuery('.closeMenu a').on('click', function(){
     jQuery('.menuItems').fadeOut();
   })
 });

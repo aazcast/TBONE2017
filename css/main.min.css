@@ -782,7 +782,7 @@ strong {
   display: block;
 }
 
-.menuItemsContainer a.closeMenu {
+.menuItemsContainer li.closeMenu a {
     font-size: 30px;
     padding-top: 34px;
 }
