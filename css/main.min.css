@@ -781,6 +781,7 @@ strong {
   padding: 27px 0;
   display: block;
 }
+
 .menuItemsContainer a.closeMenu {
     font-size: 30px;
     padding-top: 34px;
@@ -804,3 +805,4 @@ strong {
     float: left;
     margin-top: 22px;
 }
+
