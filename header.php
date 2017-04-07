@@ -62,32 +62,10 @@
     </header>
     <div class="menuItems">
       <nav class="menuItemsContainer">
-        <ul>
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">Biography</a>
-          </li>
-          <li>
-            <a href="#">Tour</a>
-          </li>
-          <li>
-            <a href="#">News</a>
-          </li>
-          <li>
-            <a href="#">Albums</a>
-          </li>
-          <li>
-            <a href="#">Gallery</a>
-          </li>
-          <li>
-            <a href="#">Videos</a>
-          </li>
-          <li>
-            <a href="javascript:;" class="closeMenu">Close</a>
-          </li>
-        </ul>
+        <?php
+          if ( has_nav_menu( 'primary' ) ) {
+            wp_nav_menu( array('depth' => 2, 'theme_location' => 'primary', 'container' => false, 'menu_class' => 'tboneMenuMain', 'menu_id' => 'menuUl'));
+        } ?>
       </nav>
     </div>
     <main>

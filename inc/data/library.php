@@ -244,7 +244,7 @@ if ( ! function_exists( 'grv_breadcrumbs' ) ) {
   Modify The Read More Link Text
 -----------------------------------------------------------*/
 function grv_modify_read_more_link() {
-  return '<div class="post-actions"><a class="btn" href="' . esc_url(get_permalink()) . '">'.__('Leer Más', 'uniqueGravity').'</a></div>';
+  return '<div class="post-actions"><a class="btn" href="' . esc_url(get_permalink()) . '">'.__('Read More', 'uniqueGravity').'</a></div>';
 }
 add_filter( 'the_content_more_link', 'grv_modify_read_more_link' );
 
@@ -253,7 +253,7 @@ add_filter( 'the_content_more_link', 'grv_modify_read_more_link' );
 -----------------------------------------------------------*/
 function grv_excerpt_more($more) {
     global $post;
-    return '<div class="post-actions"><a class="btn" href="' . esc_url(get_permalink($post->ID)) . '">'.__('Leer Más', 'uniqueGravity').'</a></div>';
+    return '<div class="post-actions"><a class="btn" href="' . esc_url(get_permalink($post->ID)) . '">'.__('Read More', 'uniqueGravity').'</a></div>';
 }
 add_filter('excerpt_more', 'grv_excerpt_more');
 
