@@ -20,10 +20,10 @@
 
         <thead>
             <tr>
-                <th>Date</th>
-                <th>Venue</th>
-                <th>Location</th>
-                <th>Tickets</th>
+                <th><?php _e('Date', 'uniqueGravity'); ?></th>
+                <th><?php _e('Venue', 'uniqueGravity'); ?></th>
+                <th><?php _e('Location', 'uniqueGravity'); ?></th>
+                <th><?php _e('Tickets', 'uniqueGravity'); ?></th>
             </tr>
         </thead>
         <tbody>
@@ -40,7 +40,7 @@
             <td><?php echo $date; ?></td>
             <td><?php echo $venue; ?></td>
             <td><?php echo $location; ?></td>
-            <td><a href="<?php echo $link; ?>" class="btn-tickets">Tickets</a></td>
+            <td><a href="<?php echo $link; ?>" class="btn-tickets"><?php _e('Tickets', 'uniqueGravity'); ?></a></td>
         </tr>
         <?php endwhile; ?>
         </tbody>

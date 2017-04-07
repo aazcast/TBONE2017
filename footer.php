@@ -20,7 +20,7 @@
           </ul>
         </nav>
         <div class="divider"></div>
-        <a href="mailto:tboneoficial@gmail.com">Contact</a>
+        <a href="mailto:tboneoficial@gmail.com"><?php _e('Contact', 'uniqueGravity'); ?></a>
         <p>tboneoficial@gmail.com</p>
       </div>
       <div class="copyFooter uk-clearfix">
@@ -28,7 +28,7 @@
           <p>2017 &copy T-BONE</p>
         </div>
         <div class="fRight">
-          <p>Site by <a href="http://gravity.cr">Gravity</a></p>
+          <p><?php _e('Site by', 'uniqueGravity'); ?> <a href="http://gravity.cr">Gravity</a></p>
         </div>
       </div>
     </footer>

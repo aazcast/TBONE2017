@@ -11,7 +11,7 @@
 <?php get_header(); ?>
 <div class="galleryPage">
     <div class="headerOtherPage">
-      <h1>Gallery</h1>
+      <h1><?php _e('Gallery', 'uniqueGravity'); ?></h1>
     </div>
     <div class="imagesGallery">
       <div data-uk-grid="data-uk-grid">

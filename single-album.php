@@ -31,7 +31,7 @@
   ?>
     <?php  if( is_single() ) : ?>
   <?php endif; ?>
-  <h2>Songs</h2>
+  <h2><?php _e('Songs', 'uniqueGravity'); ?></h2>
   <ul class="songs">
   <?php
   $var=0;
@@ -54,7 +54,7 @@ endif;
 
 ?>
 </ul>
-      <h2>Listen</h2>
+      <h2><?php _e('Listen', 'uniqueGravity'); ?></h2>
       <ul class="listen uk-clearfix">
         <li><a href="<?php echo get_field("spotify", get_the_ID()); ?>"><i class="fa fa-spotify"></i></a></li>
         <li><a href=" <?php echo get_field("apple_music", get_the_ID()); ?>"><i class="fa fa-apple"></i></a></li>

@@ -11,7 +11,7 @@
 <?php get_header(); ?>
 
 <div class="headerOtherPage">
-      <h1>Biography</h1>
+      <h1><?php _e('Biography', 'uniqueGravity'); ?></h1>
     </div>
     <section class="container">
       <p><?php echo get_field( "biography" ) ?></p>
